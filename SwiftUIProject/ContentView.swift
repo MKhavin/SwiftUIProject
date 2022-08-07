@@ -7,6 +7,21 @@
 
 import SwiftUI
 
+struct Title: ViewModifier {
+    func body(content: Content) -> some View {
+        content
+            .font(.system(size: 40, weight: .bold, design: .default))
+            .background(.green)
+    }
+}
+
+struct Regular: ViewModifier {
+    func body(content: Content) -> some View {
+        content
+            .font(.system(size: 20))
+    }
+}
+
 struct ContentView: View {
     @State private var counter = 0.0
     @State private var isAlertPresented = false
