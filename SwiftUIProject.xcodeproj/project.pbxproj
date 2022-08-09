@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5154AF7A28A19EDE004C3E5C /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5154AF7928A19EDE004C3E5C /* LoginView.swift */; };
+		5172901928A31E9B00173A08 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5172901828A31E9B00173A08 /* FeedView.swift */; };
 		51A20C3028A018BA0088F9CE /* SwiftUIProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A20C2F28A018BA0088F9CE /* SwiftUIProjectApp.swift */; };
 		51A20C3228A018BA0088F9CE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A20C3128A018BA0088F9CE /* ContentView.swift */; };
 		51A20C3428A018BD0088F9CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51A20C3328A018BD0088F9CE /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5154AF7928A19EDE004C3E5C /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		5172901828A31E9B00173A08 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
 		51A20C2C28A018BA0088F9CE /* SwiftUIProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51A20C2F28A018BA0088F9CE /* SwiftUIProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIProjectApp.swift; sourceTree = "<group>"; };
 		51A20C3128A018BA0088F9CE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +57,8 @@
 			children = (
 				51A20C2F28A018BA0088F9CE /* SwiftUIProjectApp.swift */,
 				51A20C3128A018BA0088F9CE /* ContentView.swift */,
+				5154AF7928A19EDE004C3E5C /* LoginView.swift */,
+				5172901828A31E9B00173A08 /* FeedView.swift */,
 				51A20C3328A018BD0088F9CE /* Assets.xcassets */,
 				51A20C3528A018BD0088F9CE /* Preview Content */,
 			);
@@ -137,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5172901928A31E9B00173A08 /* FeedView.swift in Sources */,
+				5154AF7A28A19EDE004C3E5C /* LoginView.swift in Sources */,
 				51A20C3228A018BA0088F9CE /* ContentView.swift in Sources */,
 				51A20C3028A018BA0088F9CE /* SwiftUIProjectApp.swift in Sources */,
 			);
